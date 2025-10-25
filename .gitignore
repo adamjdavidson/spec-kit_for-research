@@ -1,24 +1,15 @@
-# Python
+# ResearchKit Tool Repository
+# This is the TOOL repository, not a research project
+
+# Python (if any utility scripts)
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+dist/
+build/
 
 # Virtual environments
 venv/
@@ -33,17 +24,12 @@ env/
 *.swo
 .DS_Store
 
-# Project specific
+# Logs and temporary files
 *.log
 .env
 .env.local
 *.lock
 
-# Spec Kit-specific files
-.genreleases/
-*.zip
-sdd-*/
-
-# ResearchKit - User research projects (keep private)
-projects/
-.researchkit
+# Test/example projects (if added)
+examples/.researchkit/
+test-projects/
