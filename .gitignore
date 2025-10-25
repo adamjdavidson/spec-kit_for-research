@@ -1,0 +1,38 @@
+# ResearchKit - User research projects (keep private)
+# User projects may contain:
+# - Proprietary research for client engagements
+# - Unpublished insights and frameworks
+# - Downloaded PDFs with licensing restrictions
+# - Personal notes and synthesis
+
+projects/
+.researchkit
+
+# Python (if any scripts use Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and temporary files
+*.log
+.env
+.env.local
+*.lock
