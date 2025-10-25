@@ -33,3 +33,7 @@ env/
 # Test/example projects (if added)
 examples/.researchkit/
 test-projects/
+
+# Distribution files
+*.zip
+*.tar.gz
